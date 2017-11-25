@@ -10,4 +10,5 @@ then
     export PYTHONPATH="${PYTHONPATH}:${PYNAOQI_PYTHONPATH_PREFIX}"
 fi
 
-# start shit here
+# start back-end
+./backend/test.py
