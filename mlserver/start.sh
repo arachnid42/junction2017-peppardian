@@ -21,4 +21,4 @@ source ./venv/bin/activate
 
 # run ML server
 echo "${COL_GREEN}[i] Starting server (*-*)${COL_RESET}"
-#./mlserver.py
+python3 ./mlserver.py
