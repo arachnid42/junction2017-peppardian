@@ -1,4 +1,4 @@
 mlserver/venv
-
 mlserver/uploads/*
 !mlserver/uploads/.keep
+.idea
