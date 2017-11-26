@@ -21,4 +21,5 @@ source ./venv/bin/activate
 
 # run ML server
 echo "${COL_GREEN}[i] Starting server (*-*)${COL_RESET}"
-python3 ./mlserver.py
+pip3 install -r requirements.txt
+python3 ./model/test.py
