@@ -11,4 +11,4 @@ then
 fi
 
 # start back-end
-./backend/test.py
+./backend/run_master.py
