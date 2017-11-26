@@ -4,3 +4,9 @@ mlserver/uploads/*
 .idea
 *.pyc
 *__pycache__*
+tf-openpose/etcs/*
+tf-openpose/images/*
+tf-openpose/test/*
+tf-openpose/__pycache__/*
+tf-openpose/.idea/*
+
