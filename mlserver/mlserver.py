@@ -7,7 +7,7 @@ from uuid import uuid4
 def submit_image():
     """."""
     # TODO: hardcoded path? (yep)
-    request.files.get('update').save('./uploads/' + uuid4())
+    request.files.get('file').save('./uploads/' + str(uuid4()) + '.jpg')
     # call ML process with a path to the files
     return 'OK'
 
