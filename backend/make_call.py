@@ -11,7 +11,7 @@ class PhoneController:
         self.URL_CALL = "https://api.46elks.com/a1/Calls"
         self.URL_SMS = "https://api.46elks.com/a1/SMS"
         self.sender = '+37253934021'
-        self.audio_file = '{"play":"http://www.fromtexttospeech.com/output/0656087001511654705/30433913.mp3"}'
+        self.audio_file = '{"play":"http://www.fromtexttospeech.com/output/0261326001511704090/30447358.mp3"}'
         self.auth = (
                 self.API_USERNAME,
                 self.API_PASSWORD
@@ -41,6 +41,4 @@ class PhoneController:
 
 if __name__ == '__main__':
     pc = PhoneController()
-    pc.make_call('+37256739550')
-    pc.send_sms('+37256739550', 'Dipoli\nOtakaari 24\nOtaniemi\n02150 Espoo, Finland')
 

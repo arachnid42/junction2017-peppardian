@@ -21,7 +21,7 @@ class ImageSender(object):
                          },
                     files=files
                     )
-            print(r)
+            return r.text
 
 
 if __name__ == '__main__':
